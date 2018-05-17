@@ -44,7 +44,7 @@ type
 const
   // Product
   PRODUCT_NAME = 'idesis HTML Resource Embedder';
-  PRODUCT_VERSION = '0.9 (' + {$I %Date%} + ')';
+  PRODUCT_VERSION = '0.9.1 (' + {$I %Date%} + ')';
   PRODUCT_SHORT_NAME = 'htmlresemb';
   PRODUCT_INFO = PRODUCT_NAME + ' (' + PRODUCT_SHORT_NAME + '), v' + PRODUCT_VERSION;
 
@@ -56,7 +56,6 @@ const
   // Standard strings
   WHITESPACE                    = [#0..' '];
   NL                            = LineEnding;
-  ENTITY_8203: DOMString        = '8203';
 
   // Utility functions
   function GetDurationFmt(AStartTime: TDateTime): string;

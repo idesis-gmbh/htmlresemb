@@ -2,35 +2,34 @@
 <CONFIG>
   <ProjectSession>
     <Version Value="9"/>
-    <BuildModes Active="Mac"/>
+    <BuildModes Active="Windows"/>
     <Units Count="26">
       <Unit0>
         <Filename Value="htmlresemb.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="38" Y="15"/>
-        <UsageCount Value="91"/>
+        <CursorPos X="52" Y="13"/>
+        <UsageCount Value="92"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="uHTMLResEmb.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="1"/>
-        <TopLine Value="351"/>
-        <CursorPos Y="380"/>
-        <UsageCount Value="74"/>
+        <TopLine Value="59"/>
+        <CursorPos X="3" Y="65"/>
+        <UsageCount Value="75"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="uOptions.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <WindowIndex Value="1"/>
-        <TopLine Value="49"/>
-        <CursorPos X="49" Y="69"/>
-        <UsageCount Value="74"/>
+        <TopLine Value="43"/>
+        <UsageCount Value="75"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -38,8 +37,8 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="1"/>
-        <CursorPos X="26" Y="38"/>
-        <UsageCount Value="74"/>
+        <CursorPos X="30" Y="33"/>
+        <UsageCount Value="75"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -49,14 +48,14 @@
         <WindowIndex Value="1"/>
         <TopLine Value="731"/>
         <CursorPos X="17" Y="770"/>
-        <UsageCount Value="74"/>
+        <UsageCount Value="75"/>
       </Unit4>
       <Unit5>
         <Filename Value="uMain.pas"/>
         <IsPartOfProject Value="True"/>
         <TopLine Value="38"/>
         <CursorPos X="32" Y="69"/>
-        <UsageCount Value="74"/>
+        <UsageCount Value="75"/>
         <Loaded Value="True"/>
       </Unit5>
       <Unit6>
@@ -224,126 +223,123 @@
         <UsageCount Value="7"/>
       </Unit25>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <General>
+      <ActiveWindowIndexAtStart Value="1"/>
+    </General>
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
-        <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="418" TopLine="347"/>
+        <Filename Value="uOptions.pas"/>
+        <Caret Line="160" Column="15" TopLine="110"/>
       </Position1>
       <Position2>
         <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="297" Column="12" TopLine="247"/>
       </Position2>
       <Position3>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="202" Column="12" TopLine="129"/>
+        <Caret Line="187" Column="12" TopLine="159"/>
       </Position3>
       <Position4>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="281" Column="12" TopLine="208"/>
+        <Caret Line="265" Column="12" TopLine="216"/>
       </Position4>
       <Position5>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="379" Column="47" TopLine="369"/>
+        <Caret Line="380" Column="30" TopLine="360"/>
       </Position5>
       <Position6>
-        <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="120" Column="24" TopLine="73"/>
+        <Filename Value="uUtil.pas"/>
+        <Caret Line="375" Column="25" TopLine="336"/>
       </Position6>
       <Position7>
-        <Filename Value="uUtil.pas"/>
-        <Caret Line="69" TopLine="39"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="32" Column="15" TopLine="18"/>
       </Position7>
       <Position8>
-        <Filename Value="uUtil.pas"/>
-        <Caret Line="264" TopLine="252"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="89" Column="31" TopLine="56"/>
       </Position8>
       <Position9>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="26" TopLine="7"/>
+        <Caret Line="409" TopLine="376"/>
       </Position9>
       <Position10>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="123" TopLine="70"/>
+        <Caret Line="69" Column="64" TopLine="41"/>
       </Position10>
       <Position11>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="128" Column="29" TopLine="110"/>
+        <Caret Line="340" Column="11" TopLine="310"/>
       </Position11>
       <Position12>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="70" TopLine="41"/>
+        <Caret Line="73" Column="12" TopLine="59"/>
       </Position12>
       <Position13>
-        <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="9" Column="51"/>
+        <Filename Value="uUtil.pas"/>
+        <Caret Line="59" TopLine="30"/>
       </Position13>
       <Position14>
-        <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="187" Column="12" TopLine="137"/>
+        <Filename Value="uUtil.pas"/>
       </Position14>
       <Position15>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="265" Column="12" TopLine="216"/>
       </Position15>
       <Position16>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="17" Column="41" TopLine="14"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="221" Column="5" TopLine="171"/>
       </Position16>
       <Position17>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="101" Column="12" TopLine="52"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="222" Column="5" TopLine="172"/>
       </Position17>
       <Position18>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="151" Column="23" TopLine="101"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="227" TopLine="173"/>
       </Position18>
       <Position19>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="160" Column="23" TopLine="110"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="93" Column="10" TopLine="59"/>
       </Position19>
       <Position20>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="172" Column="23" TopLine="122"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="421" Column="15" TopLine="389"/>
       </Position20>
       <Position21>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="101" Column="13"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="287" Column="21" TopLine="253"/>
       </Position21>
       <Position22>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="39" Column="21"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="43" Column="19"/>
       </Position22>
       <Position23>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="101" Column="12" TopLine="100"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="344" Column="47" TopLine="330"/>
       </Position23>
       <Position24>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="151" Column="15" TopLine="101"/>
+        <Filename Value="uHTMLResEmb.pas"/>
       </Position24>
       <Position25>
-        <Filename Value="uOptions.pas"/>
-        <Caret Line="160" Column="15" TopLine="110"/>
+        <Filename Value="uHTMLResEmb.pas"/>
+        <Caret Line="68" TopLine="18"/>
       </Position25>
       <Position26>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="297" Column="12" TopLine="247"/>
+        <Caret Line="206" Column="12" TopLine="156"/>
       </Position26>
       <Position27>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="187" Column="12" TopLine="159"/>
+        <Caret Line="224" TopLine="171"/>
       </Position27>
       <Position28>
         <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="265" Column="12" TopLine="216"/>
+        <Caret Line="288" Column="12" TopLine="239"/>
       </Position28>
       <Position29>
-        <Filename Value="uHTMLResEmb.pas"/>
-        <Caret Line="380" Column="30" TopLine="360"/>
+        <Filename Value="uOptions.pas"/>
+        <Caret Line="74" Column="21" TopLine="49"/>
       </Position29>
-      <Position30>
-        <Filename Value="uUtil.pas"/>
-        <Caret Line="375" Column="25" TopLine="336"/>
-      </Position30>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

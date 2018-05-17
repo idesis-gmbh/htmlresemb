@@ -29,6 +29,7 @@ type
     FEmbedImages: Boolean;
     FXMLSourceDocument: TXMLDocument;
     FDeleteList: TDOMNodes;
+    procedure PreventSelfClosingTag(ANode: TDOMNode);
     procedure DeleteNodes;
     function StoreAndRemoveHeader(AInput: TStringList): string;
     procedure RestoreHeader(AInput: TStringList);
@@ -59,13 +60,29 @@ uses
     THTMLProcessor
   ---------------------------------------------------------------------}
 // private
+procedure THTMLProcessor.PreventSelfClosingTag(ANode: TDOMNode);
+begin
+  // ToDo: Exclude these tags in the future
+  //'area', 'base', 'br', 'col', 'command', 'embed', 'hr', 'img', 'input',
+  //'keygen', 'link', 'menuitem', 'meta', 'param', 'source', 'track', 'wbr'
+  if (ANode.ChildNodes.Count = 0) then
+    ANode.AppendChild(FXMLSourceDocument.CreateTextNode(''));
+end;
+
 procedure THTMLProcessor.DeleteNodes;
 var
   i: Integer;
+  Parent: TDOMNode;
 begin
   for i := 0 to FDeleteList.Count-1 do
-    if (FDeleteList[i].ParentNode <> nil) then
-      FDeleteList[i].ParentNode.RemoveChild(FDeleteList[i]);
+  begin
+    Parent := FDeleteList[i].ParentNode;
+    if (Parent <> nil) then
+    begin
+      Parent.RemoveChild(FDeleteList[i]);
+      PreventSelfClosingTag(Parent);
+    end;
+  end;
 end;
 
 function THTMLProcessor.StoreAndRemoveHeader(AInput: TStringList): string;
@@ -318,7 +335,9 @@ begin
   else if (FEmbedJavaScript and (NodeName = 'script')) then
     ScriptNode(ANode)
   else if (FEmbedImages and (NodeName = 'img')) then
-    ImageNode(ANode);
+    ImageNode(ANode)
+  else if (ANode.NodeType = ELEMENT_NODE) then
+    PreventSelfClosingTag(ANode);
 end;
 
 procedure THTMLProcessor.ProcessAllNodes;
@@ -394,8 +413,8 @@ begin
     if (HeadElement <> nil) then
     begin
       Title := HeadElement.FindNode('title');
-      if ((Title <> nil) and (Title.TextContent = '')) then
-        Title.AppendChild(NumericEntity(ENTITY_8203));
+      if (Title <> nil) then
+        PreventSelfClosingTag(Title);
     end;
     ProcessAllNodes;
     DeleteNodes;
