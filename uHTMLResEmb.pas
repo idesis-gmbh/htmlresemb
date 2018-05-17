@@ -399,7 +399,7 @@ begin
       ParseXMLDocument('<!DOCTYPE html SYSTEM " " >' + NL + DocumentStringContent, FXMLSourceDocument, nil, True);
     except
       FirstErrMsg := Exception(ExceptObject).Message;
-      FHTMLBroken := False;
+      FHTMLBroken := True;
       // Retry and auto repair broken HTML. Unfortunately this removes CDATA sections
       // but they will be restored in StyleNode() and ScriptNode().
       DocumentStringContent := RepairBrokenHTML(DocumentStringContent, SecondErrMsg);
